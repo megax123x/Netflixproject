@@ -4,4 +4,3 @@ seaborn
 streamlit 
 plotly
 sklearn
-PIL 
