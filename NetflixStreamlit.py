@@ -33,7 +33,7 @@ if rad=='MORE PROJECT':
     st.title(" ")
     st.subheader('Enjoy!')
 
-    st.image('https://github.com/megax123x/Netflixproject/blob/main/sunrise.jpg', caption='Sunrise In la creuse')
+    st.image('https://raw.githubusercontent.com/megax123x/Netflixproject/main/sunrise.jpg', caption='Sunrise In la creuse')
 
 # Creat an expander to memorize the data set selected
 expander = st.sidebar.beta_expander("Data selected")
