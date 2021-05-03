@@ -7,7 +7,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn import preprocessing
-from PIL import Image
 
 
 
@@ -34,8 +33,7 @@ if rad=='MORE PROJECT':
     st.title(" ")
     st.subheader('Enjoy!')
 
-    image = Image.open('sunrise.jpg')
-    st.image(image, caption='Sunrise In la creuse')
+    st.image('https://github.com/megax123x/Netflixproject/blob/main/sunrise.jpg', caption='Sunrise In la creuse')
 
 # Creat an expander to memorize the data set selected
 expander = st.sidebar.beta_expander("Data selected")
