@@ -1,9 +1,0 @@
-pandas 
-numpy
-matplotlib.pyplot
-matplotlib
-seaborn 
-streamlit 
-plotly
-sklearn
-PIL 
