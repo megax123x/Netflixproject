@@ -33,7 +33,7 @@ if rad=='MORE PROJECT':
     st.title(" ")
     st.subheader('Enjoy!')
 
-    st.image('https://github.com/megax123x/Netflixproject/blob/main/sunrise.jpg', caption='Sunrise In la creuse')
+    st.image('https://raw.githubusercontent.com/megax123x/Netflixproject/main/sunrise.jpg', caption='Sunrise In la creuse')
 
 # Creat an expander to memorize the data set selected
 expander = st.sidebar.beta_expander("SELECTED DATA")
@@ -122,7 +122,7 @@ if rad=='DATA EXPLORE':
 if rad=='TOP 10':
      st.title('TOP 10 per year')
      st.header('the data base inclued only movies distrubuted in france with a rating of 7+ and 1500 vote ')
-     dfml=pd.read_csv('dfml.csv')
+     dfml=pd.read_csv('https://raw.githubusercontent.com/megax123x/Netflixproject/main/dfml.csv')
      listedate=dfml['startYear'].to_list()
      Yearlist=list(set(listedate))
      st.title('')
